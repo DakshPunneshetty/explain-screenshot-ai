@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import pytesseract
 from groq import Groq
+import os 
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Explain Screenshot AI", page_icon="🤖")
