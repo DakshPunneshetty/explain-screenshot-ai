@@ -11,7 +11,6 @@ st.set_page_config(page_title="Explain Screenshot AI", page_icon="🤖")
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # --- TESSERACT PATH ---
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # --- HEADER ---
 st.header("📸 AI Screenshot Explainer")
